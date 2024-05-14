@@ -1,0 +1,73 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    
+    height: 100vb;
+    width: 100vh;
+    background-color: black;
+    transition-duration: 200ms;
+    
+    
+}
+
+.container{
+    margin: 10px auto;
+    width: 400px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+input{
+    flex-grow: 1;
+    background-color: black;
+    color: white;
+    font-size: 64px;
+    border: 0;
+    outline: none;
+    text-align: right;
+    padding: 0px 10px;
+    border:2px dotted
+    
+
+
+}
+
+.grid-buttons{
+    flex-grow: 2;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: 5px;
+    border: 2px solid white;
+}
+
+button{
+    height: 80%;
+    width: 80%;
+    border-radius: 50%;
+    background-color: #505050;
+    color: #fff;
+    font-size: 1.7rem;
+    border: 0;
+    outline: none;
+    font-weight: 500;
+    transition-duration: 200ms;
+
+
+}
+.yellow-btn{
+    background-color: #eab711;
+}
+.gry-btn{
+    color: black;
+    background-color: #a5a5a5;
+}
+.Zero{
+    grid-column: 1/3;
+    border-radius: 75px;
+    
+}
